@@ -222,7 +222,7 @@ button {
     position: absolute;
     width: 730px;
     height: 900px;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     left: -40px;
     top: -70px;
     z-index: -1;
@@ -230,7 +230,7 @@ button {
 }
 
 .header_bg {
-    background-color: #e0fdf9 !important;
+    background-color: #e0e1fd !important;
 }
 
 .header_bg::after {
@@ -312,12 +312,12 @@ button {
 
 .login_bt li a:hover {
     color: #252525;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
 }
 
 .login_bt li.active a {
     color: #252525;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
 }
 
 /* header section end */
@@ -504,7 +504,7 @@ input.enter_bt::placeholder {
     font-size: 18px;
     color: #0f0f0f;
     text-transform: uppercase;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     padding: 10px;
     text-align: center;
     border-radius: 5px;
@@ -554,7 +554,7 @@ input.enter_bt::placeholder {
     font-size: 18px;
     color: #0f0f0f;
     text-transform: uppercase;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     padding: 10px;
     border-radius: 5px;
     text-align: center;
@@ -681,7 +681,7 @@ input.enter_bt::placeholder {
     font-size: 16px;
     color: #232323;
     text-align: center;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     padding: 8px;
 }
 
@@ -702,7 +702,7 @@ input.enter_bt::placeholder {
     font-size: 16px;
     color: #232323;
     text-align: center;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     padding: 8px;
 }
 
@@ -755,7 +755,7 @@ input.enter_bt::placeholder {
     width: 100%;
     float: left;
     padding: 180px 0px 181px 115px;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     height: auto;
     background-size: 100%;
 }
@@ -902,7 +902,7 @@ input.enter_bt::placeholder {
 
 .pricing_box:hover .regular_text {
     color: #252525;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
 }
 
 .regular_text {
@@ -965,7 +965,7 @@ input.enter_bt::placeholder {
     width: 100%;
     float: left;
     font-size: 18px;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     color: #28454e;
     text-align: center;
     padding: 8px;
@@ -1061,7 +1061,7 @@ input.enter_bt::placeholder {
     position: absolute;
     width: 300px;
     height: 430px;
-    background-color: #defbf7;
+    background-color: #dee0fb;
     left: -40px;
     top: -40px;
     z-index: -1;
@@ -1084,7 +1084,7 @@ input.enter_bt::placeholder {
 #my_slider .carousel-control-prev {
     width: 55px;
     height: 55px;
-    background: #e0fdf9;
+    background: #e0e1fd;
     opacity: 1;
     font-size: 40px;
     color: #252525;
@@ -1188,7 +1188,7 @@ textarea#comment::placeholder {
     text-align: center;
     font-size: 18px;
     color: #ffffff;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     padding: 10px;
     text-transform: uppercase;
     margin-top: 30px;
@@ -1219,7 +1219,7 @@ textarea#comment::placeholder {
     text-align: center;
     font-size: 18px;
     color: #28454e;
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     padding: 10px 60px;
     text-transform: uppercase;
     margin-top: 30px;
@@ -1409,7 +1409,7 @@ input.email_text::placeholder {
 }
 
 .social_icon li a:hover {
-    background-color: #e0fdf9;
+    background-color: #e0e1fd;
     color: #252525;
 }
 
