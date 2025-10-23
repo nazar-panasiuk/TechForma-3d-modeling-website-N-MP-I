@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- mobile metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <!-- site metas -->
+        <title>TechForma</title>
+        <meta
+            name="keywords"
+            content="3D моделирование, CAM программирование, фрезерные станки, управление ЧПУ, обучение фрезеровке, постобработка, SMM, SMM promotion, booking"
+        />
+        <meta
+            name="description"
+            content="Практические курсы и услуги по 3D-моделированию, CAM-программированию и эксплуатации фрезерных станков. Обучение, сопровождение проектов и внедрение цифровых процессов."
+        />
+        <!-- bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <!-- style css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- Responsive-->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!-- favicon -->
+        <link rel="icon" href="images/favicon.png" type="image/gif" />
+        <!-- font css -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Scrollbar Custom CSS -->
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
+        <!-- Tweaks for older IEs-->
+        <link
+            rel="stylesheet"
+            href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+        />
+    </head>
+    <body>
+        <div class="header_block">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">
+                        <h1>TechForma</h1>
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html"
+                                    >Главная</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="testimonials.html"
+                                    >Отзывы</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="services.html"
+                                    >Услуги</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html"
+                                    >Контакты</a
+                                >
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <div class="login_bt">
+                                <ul>
+                                    <li>
+                                        <a href="contact.html"
+                                            >Связаться с нами</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+                </nav>
+            </div>
+            <!-- banner section start -->
+            <div class="banner_section layout_padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1 class="banner_taital">
+                                ПЕРЕДОВЫЕ РЕШЕНИЯ ДЛЯ 3D-МОДЕЛИРОВАНИЯ
+                                <span style="color: #2b2b2b">
+                                    ПРОГРАММИРОВАНИЕ И УПРАВЛЕНИЕ ФРЕЗЕРНЫМИ
+                                    СТАНКАМИ
+                                </span>
+                            </h1>
+                            <p class="banner_text">
+                                Откройте для себя современные инструменты и
+                                методики работы с 3D-моделями, CAM-программами и
+                                системами ЧПУ. Изучайте создание точных
+                                геометрических моделей, настройку параметров
+                                обработки и оптимизацию кода для фрезерных
+                                станков. Наша команда помогает инженерам и
+                                программистам реализовывать идеи в готовые
+                                изделия с высокой точностью и эффективностью.
+                            </p>
+                            <div class="started_text">
+                                <a href="about.html">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                id="banner_slider"
+                                class="carousel slide"
+                                data-ride="carousel"
+                            >
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="banner_img">
+                                            <img
+                                                src="images/banner-img-1.jpg"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="banner_img">
+                                            <img
+                                                src="images/banner-img-2.jpg"
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="banner_img">
+                                            <img
+                                                src="images/banner-img-3.jpg"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <a
+                                    class="carousel-control-prev"
+                                    href="#banner_slider"
+                                    role="button"
+                                    data-slide="prev"
+                                >
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                                <a
+                                    class="carousel-control-next"
+                                    href="#banner_slider"
+                                    role="button"
+                                    data-slide="next"
+                                >
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- banner section end -->
+        </div>
+        <!-- header section end -->
+
+        <!-- Features section start -->
+        <div class="blog_block layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="blog_taital">
+                            Инновационные инструменты для 3D-моделирования и
+                            работы на фрезерных станках
+                        </h1>
+                    </div>
+                </div>
+                <div class="blog_block_2">
+                    <div
+                        id="main_slider"
+                        class="carousel slide"
+                        data-ride="carousel"
+                    >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="blog_img">
+                                            <img
+                                                src="images/img_sec_feat_1.jpg"
+                                            />
+                                        </div>
+                                        <h6 class="number_text">01</h6>
+                                        <h5 class="card_title">
+                                            Цифровое проектирование деталей
+                                        </h5>
+                                        <p class="card_description">
+                                            Создавайте высокоточные 3D-модели с
+                                            использованием параметрического
+                                            подхода и аналитических
+                                            инструментов, подходящих для всех
+                                            этапов подготовки к фрезеровке.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="blog_img">
+                                            <img
+                                                src="images/img_sec_feat_2.jpg"
+                                            />
+                                        </div>
+                                        <h6 class="number_text">02</h6>
+                                        <h5 class="card_title">
+                                            Построение траекторий обработки
+                                        </h5>
+                                        <p class="card_description">
+                                            Автоматизируйте процесс формирования
+                                            траекторий инструмента для точной и
+                                            безопасной обработки деталей на
+                                            станках с ЧПУ.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="blog_img">
+                                            <img
+                                                src="images/img_sec_feat_3.jpg"
+                                            />
+                                        </div>
+                                        <h6 class="number_text">03</h6>
+                                        <h5 class="card_title">
+                                            Проверка программ и симуляция
+                                        </h5>
+                                        <p class="card_description">
+                                            Визуализируйте и проверяйте движение
+                                            инструмента в симуляции,
+                                            предотвращая возможные коллизии
+                                            перед запуском оборудования.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="blog_img">
+                                            <img
+                                                src="images/img_sec_feat_4.jpg"
+                                            />
+                                        </div>
+                                        <h6 class="number_text">04</h6>
+                                        <h5 class="card_title">
+                                            Настройка постпроцессоров
+                                        </h5>
+                                        <p class="card_description">
+                                            Оптимизируйте код под разные системы
+                                            ЧПУ с учётом специфик оборудования,
+                                            форматов и командных структур.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="blog_img">
+                                            <img
+                                                src="images/img_sec_feat_5.jpg"
+                                            />
+                                        </div>
+                                        <h6 class="number_text">05</h6>
+                                        <h5 class="card_title">
+                                            Подготовка фрезерного оборудования
+                                        </h5>
+                                        <p class="card_description">
+                                            Изучите этапы настройки станка,
+                                            выбора инструментов и фиксации
+                                            заготовок для точного выполнения
+                                            операций.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="blog_img">
+                                            <img
+                                                src="images/img_sec_feat_6.jpg"
+                                            />
+                                        </div>
+                                        <h6 class="number_text">06</h6>
+                                        <h5 class="card_title">
+                                            Практическое обучение
+                                        </h5>
+                                        <p class="card_description">
+                                            Получите навыки проектирования,
+                                            программирования и работы с
+                                            современными системами
+                                            автоматизированного производства.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a
+                            class="carousel-control-prev"
+                            href="#main_slider"
+                            role="button"
+                            data-slide="prev"
+                        >
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                        <a
+                            class="carousel-control-next"
+                            href="#main_slider"
+                            role="button"
+                            data-slide="next"
+                        >
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features section end -->
+
+        <!-- Approach section start -->
+        <div class="about_block layout_padding">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 padding_left0" style="height: 100%">
+                        <div class="about_taital_main" style="height: 100%">
+                            <h1 class="about_taital">
+                                Современный подход к 3D-моделированию и
+                                обработке
+                            </h1>
+                            <h6 class="about_text">
+                                Мы объединяем практическое обучение и цифровое
+                                проектирование, чтобы инженеры и операторы могли
+                                уверенно управлять процессом создания деталей.
+                                Осваивайте CAM-программирование, контроль
+                                движения инструмента и подготовку управляющих
+                                программ для фрезерных станков.
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="about_img">
+                            <img src="images/img_sec_1.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Approach section end -->
+
+        <!-- Insights section start -->
+        <div class="pricing_block layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="pricing_taital">
+                            Углублённый анализ инструментов моделирования
+                        </h1>
+                    </div>
+                </div>
+                <div class="pricing_block_2">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="pricing_box">
+                                <h6 class="regular_text">
+                                    Комплексный инструмент №1
+                                </h6>
+                                <div class="taital_main">
+                                    <h3 class="dolor_text">
+                                        Применение и возможности
+                                    </h3>
+                                </div>
+                                <p class="using_text">
+                                    Узнайте, как данный инструмент помогает
+                                    ускорить процесс моделирования и обработки
+                                    деталей, обеспечивая точность и
+                                    автоматизацию операций в производственной
+                                    среде.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="pricing_box active">
+                                <h6 class="regular_text">
+                                    Инструмент №2 в работе инженера
+                                </h6>
+                                <div class="taital_main">
+                                    <h3 class="dolor_text">
+                                        Преимущества и эффективность
+                                    </h3>
+                                </div>
+                                <p class="using_text">
+                                    Этот инструмент облегчает разработку
+                                    управляющих программ, анализ траекторий и
+                                    адаптацию процессов под конкретные станки.
+                                    Он является важной частью современного цикла
+                                    цифрового производства.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Insights section end -->
+
+        <!-- Contact section start -->
+        <div class="contact_block layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1 class="contact_taital contact_heading">
+                            Связаться с нами
+                        </h1>
+                    </div>
+                </div>
+                <div class="contact_block_2">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mail_section map_form_container">
+                                <form action="thanks.html" method="GET">
+                                    <input
+                                        type="text"
+                                        class="mail_text"
+                                        placeholder="Ваше имя"
+                                        name="Your Name"
+                                        required
+                                    />
+                                    <input
+                                        type="text"
+                                        class="mail_text"
+                                        placeholder="Электронная почта"
+                                        name="Email"
+                                        required
+                                    />
+                                    <input
+                                        type="number"
+                                        class="mail_text"
+                                        placeholder="Телефон"
+                                        name="Phone"
+                                        required
+                                    />
+                                    <textarea
+                                        class="massage-bt"
+                                        placeholder="Ваше сообщение"
+                                        rows="5"
+                                        id="comment"
+                                        name="Message"
+                                        required
+                                    ></textarea>
+                                    <div class="contact_btn_main">
+                                        <div style="width: 100%">
+                                            <button
+                                                style="
+                                                    width: 100%;
+                                                    float: left;
+                                                    background-color: #ec5121;
+                                                    color: #ffffff;
+                                                    text-align: center;
+                                                    padding: 10px;
+                                                    text-transform: uppercase;
+                                                    border-radius: 30px;
+                                                    font-size: 18px;
+                                                "
+                                            >
+                                                Отправить
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact section end -->
+
+        <!-- footer section start -->
+        <div class="footer_block layout_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer_logo">
+                            <h1 style="font-size: 30px; color: #fff">
+                                TechForma Studio
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_block_2">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <h2 class="useful_text">Навигация</h2>
+                            <div class="footer_menu">
+                                <ul>
+                                    <li><a href="index.html">Главная</a></li>
+                                    <li><a href="about.html">О компании</a></li>
+                                    <li>
+                                        <a href="tools.html">
+                                            Инструменты моделирования
+                                        </a>
+                                    </li>
+                                    <li><a href="contact.html">Контакты</a></li>
+                                    <li>
+                                        <a href="privacy-policy.html">
+                                            Политика конфиденциальности
+                                        </a>
+                                        <a href="privacy-policy.html">
+                                            Политика cookies
+                                        </a>
+                                        <a href="terms-of-use.html">
+                                            Условия использования
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <h2 class="useful_text">Контактная информация</h2>
+                            <div class="location_text">
+                                <img src="images/call-icon.png" />
+                                <span class="padding_left_15">
+                                    <a href="#">+77122502510</a>
+                                </span>
+                            </div>
+                            <div class="location_text">
+                                <img src="images/mail-icon.png" />
+                                <span class="padding_left_15">
+                                    <a href="#">tech_forma@gmail.com</a>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <h2 class="useful_text">Новости и обновления</h2>
+                            <p class="footer_text">
+                                Подписывайтесь, чтобы получать новости о
+                                современных решениях в 3D-моделировании,
+                                программировании станков и цифровом
+                                производстве. Мы делимся практическими
+                                примерами, новыми подходами к автоматизации и
+                                аналитикой по разработке моделей и траекторий
+                                обработки.
+                            </p>
+                            <div class="social_icon">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/">
+                                            <i
+                                                class="fa fa-facebook"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com/">
+                                            <i
+                                                class="fa fa-twitter"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/">
+                                            <i
+                                                class="fa fa-linkedin"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/">
+                                            <i
+                                                class="fa fa-instagram"
+                                                aria-hidden="true"
+                                            ></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer section end -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Использование файлов cookie</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Мы используем файлы cookie для оптимизации работы сайта и
+                    персонализации материалов, связанных с 3D-моделированием,
+                    программированием и эксплуатацией фрезерных станков.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Javascript files-->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/plugin.js"></script>
+        <!-- sidebar -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <!-- javascript -->
+    </body>
+</html>
